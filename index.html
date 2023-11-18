@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootsrap -->
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <!-- fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+  <!-- aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/favicon2.jpg" type="image/x-icon">
+  <!-- css -->
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+
+  <script defer src="js/app.js" type="module"></script>
+
+</head>
+
+<body>
+  <header class="container-fluid">
+    <div class="container d-flex justify-content-center align-items-center">
+      <div class="d-flex align-items-center">
+      </div>
+      <nav class="d-md-block " id="nav_open">
+        <ul class="list-unstyled d-flex justify-content-end list-inline">
+          <li class="home list-inline-item d-flex align-items-center">
+            <a data-name="all" href="#">Home</a>
+          </li>
+          <li class="israel list-inline-item d-flex align-items-center">
+            <a data-name="ISR" href="#">israel</a>
+          </li>
+          <li class="Thailand list-inline-item d-flex align-items-center">
+            <a data-name="THA" href="#">Thailand</a>
+          </li>
+          <li class="US list-inline-item d-flex align-items-center">
+            <a data-name="USA" href="#">United States</a>
+          </li>
+          <li class="France list-inline-item d-flex align-items-center">
+            <a data-name="FRA" href="#">France</a>
+          </li>
+          <button class="ms-5 me-2 btn mt-2 btn-outline-dark" id="search_button">search</button>
+          <input class=" mt-2 rounded" id="search_input" type="text">
+          <select class="ms-5  mt-2 rounded" id="select">
+            <option value="0" selected>Choose Country</option>
+          </select>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container-fluid">
+    <div class=" d-flex justify-content-center">
+      <div class="row w-75 d-flex justify-content-around">
+      </div>
+    </div>
+  </main>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
